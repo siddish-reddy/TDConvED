@@ -1,21 +1,15 @@
-# This is an implemetation of TDConvED for video captioning.
-By Wang Zihmin,李旭峰 2019
+This is an implemetation of TDConvED for video captioning By Wang Zihmin,2019
 
-## discription
-work is going on.
-
-This implementation is based on the paper TDconvED by Jingwen Chen et al. at https://arxiv.org/abs/1905.01077v1?fbclid=IwAR3PIjrHeMBZYcXfPm6J6mIkndjihtIlqsAjQopD_g-TlVvuwZWzEBMf-1Y.
-
-
-
+## Description
+Colab Demo: https://colab.research.google.com/drive/10bFeD1nmCUoV-g4uz_gHon1hX0MQTCUG?usp=sharing
+This implementation is based on the paper TDconvED by Jingwen Chen et al. at https://arxiv.org/abs/1905.01077v1
 
 
 ## Usage:
 #### Clone this repository:
-        git clone https://github.com/b05902062/TDConvED.git
+        git clone https://github.com/siddish-reddy/TDConvED.git
         cd TDConvED
         cd src
-
 
 #### Download msr vtt dataset:
 
@@ -107,7 +101,6 @@ We can launch python or write in a file to generate caption. We also launch pyth
         generate_caption('../data/robot.mp4',<checkpoint_path>,start=11,end=28,beam_size=20,return_top=5)
         
         
-
         
 For further understanding of the implementation, you can see the heavily annotated code in /src or see the original paper.
         
